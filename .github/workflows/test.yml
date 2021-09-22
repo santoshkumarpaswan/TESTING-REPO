@@ -10,7 +10,7 @@ jobs:
       - uses: action/checkout@v2
       
       - name:  Run test-p
-      - uses: github/test-p@v3
-      env:
-        DEFAULT_BRANCH: main
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: github/test-p@v3
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
