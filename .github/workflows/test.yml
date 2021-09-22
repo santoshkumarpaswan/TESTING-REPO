@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-      - uses: action/checkout@v2
+        uses: action/checkout@v2
       
       - name:  Run test-p
         uses: github/test-p@v3
